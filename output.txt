@@ -1,10 +1,10 @@
-┌──(prateek㉿kali)-[/media/sf_KaliShare/os_lab1]
+┌──(akshat㉿kali)-[/media/sf_KaliShare/os_lab1]
 └─$ nano process_management.py
 
-┌──(prateek㉿kali)-[/media/sf_KaliShare/os_lab1]
+┌──(akshat㉿kali)-[/media/sf_KaliShare/os_lab1]
 └─$ nano output.txt                                                                                  
 
-┌──(prateek㉿kali)-[/media/sf_KaliShare/os_lab1]
+┌──(akshat㉿kali)-[/media/sf_KaliShare/os_lab1]
 └─$ python3 process_management.py 1
 --- Running Task 1: Process Creation ---
 Child (PID: 3330) created by Parent (PPID: 3329). Message: Hello from child 1
@@ -12,7 +12,7 @@ Child (PID: 3331) created by Parent (PPID: 3329). Message: Hello from child 2
 Child (PID: 3332) created by Parent (PPID: 3329). Message: Hello from child 3
 --- Task 1 Finished: Parent has waited for all children. ---
 
-┌──(prateek㉿kali)-[/media/sf_KaliShare/os_lab1]
+┌──(akshat㉿kali)-[/media/sf_KaliShare/os_lab1]
 └─$ python3 process_management.py 2
 --- Running Task 2: Command Execution ---
 Child (PID: 3336) is executing the 'ls -l' command.
@@ -25,7 +25,7 @@ total 2004
 --- Task 2 Finished: Child has executed the command. ---
 
                                                                              
-┌──(prateek㉿kali)-[/media/sf_KaliShare/os_lab1]
+┌──(akshat㉿kali)-[/media/sf_KaliShare/os_lab1]
 └─$ python3 process_management.py 3a
 --> To see the zombie, run this command in another terminal window while this script is sleeping: 
 --> ps -el | grep defunct
@@ -36,23 +36,23 @@ Parent is done. The child should now be gone.
 --- Task 3a Finished. Check terminal output for 'ps' command. ---
 
 
-┌──(prateek㉿kali)-[/media/sf_KaliShare/os_lab1]
+┌──(akshat㉿kali)-[/media/sf_KaliShare/os_lab1]
 └─$ ps -el | grep defunct    
 F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
 0 Z  1000  2356  2355  0  80   0 -     0 -      pts/0    00:00:00 python3 <defunct>
 
 
-┌──(prateek㉿kali)-[/media/sf_KaliShare/os_lab1]
+┌──(akshat㉿kali)-[/media/sf_KaliShare/os_lab1]
 └─$ python3 process_management.py 3b
 --- Running Task 3b: Orphan Process Simulation ---
 Parent (PID: 3700) is exiting immediately.
 Child (PID: 3701) is sleeping for 5 seconds.
                                                                              
-┌──(prateek㉿kali)-[/media/sf_KaliShare/os_lab1]
+┌──(akshat㉿kali)-[/media/sf_KaliShare/os_lab1]
 └─$ Child is awake. My PID is 3701, and my Parent's PID is now 1.
 
 
-┌──(prateek㉿kali)-[/media/sf_KaliShare/os_lab1]
+┌──(akshat㉿kali)-[/media/sf_KaliShare/os_lab1]
 └─$ python3 process_management.py 4
 Enter PID to inspect (you can use your own shell's PID, for example): 1137
 --- Running Task 4: Inspecting PID 1137 ---
@@ -65,7 +65,7 @@ Open File Descriptors: 7 (['0', '1', '2', '3', '4', '5', '6'])
 
 
 
-┌──(prateek㉿kali)-[/media/sf_KaliShare/os_lab1]
+┌──(akshat㉿kali)-[/media/sf_KaliShare/os_lab1]
 └─$ python3 process_management.py 5
 --- Running Task 5: Process Prioritization ---
 Starting CPU-intensive tasks with different priorities (lower nice value = higher priority).
@@ -76,5 +76,6 @@ Child (PID: 3965, nice: 0) finished.
 Child (PID: 3967, nice: 10) finished.
 Child (PID: 3966, nice: 5) finished.
 --- Task 5 Finished. Observe the finishing order. ---
+
 
 
