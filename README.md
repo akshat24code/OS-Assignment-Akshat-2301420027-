@@ -1,4 +1,4 @@
-# 🧠 Operating Systems Lab Assignments  
+# Operating Systems Lab Assignments  
 **Submitted by:** *Akshat Sharma*  
 **Course:** B.Tech CSE (Data Science)  
 **Semester:** 5  
@@ -6,13 +6,13 @@
 
 ---
 
-## 📘 Overview
+## Overview
 This repository contains **three Operating Systems lab assignments** completed as part of the 5th-semester curriculum.  
 Each assignment demonstrates the implementation of **core OS concepts** through **practical programming in C and Python** on a Linux environment.
 
 ---
 
-## 🧩 Assignment 1 — Process Management in Linux
+## Assignment 1 — Process Management in Linux
 **Objective:** Understand process creation, execution, and management using system calls.  
 
 ### **Included Tasks:**
@@ -31,7 +31,7 @@ Each assignment demonstrates the implementation of **core OS concepts** through 
 
 ---
 
-## ⚙️ Assignment 2 — Process Scheduling and Subtasks
+## Assignment 2 — Process Scheduling and Subtasks
 **Objective:** Implement various CPU scheduling algorithms and explore multi-process operations.  
 
 ### **Included Components:**
@@ -53,7 +53,7 @@ Each assignment demonstrates the implementation of **core OS concepts** through 
 
 ---
 
-## 💾 Assignment 3 — Advanced OS Concepts: Scheduling & Memory Management
+## Assignment 3 — Advanced OS Concepts: Scheduling & Memory Management
 **Objective:** Extend understanding of OS by implementing **scheduling and memory allocation** strategies.
 
 ### **Included Tasks:**
@@ -70,7 +70,7 @@ Each assignment demonstrates the implementation of **core OS concepts** through 
 - `task5_mft_mvt_simulation.py`  
 - `OS_Assignment3_Report.pdf`   
 
-## 💾 Assignment 4 — Batch Processing, System Simulation & IPC
+## Assignment 4 — Batch Processing, System Simulation & IPC
 **Objective:** Simulate batch execution, system startup behavior, IPC mechanisms, VM detection, and extended CPU scheduling.
 
 ### **Included Tasks:**
